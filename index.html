@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISSU321 | Advanced Digital Command Center</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div id="three-canvas"></div>
+
+    <nav>
+        <a href="index.html" class="logo">issu321-Mohammed Usman</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="glitch-text">DIGITAL REALITY</h1>
+            <p class="typing-text" data-text="Building futuristic web experiences with 3D animations and cyberpunk aesthetics..."></p>
+            <div style="margin-top: 2rem;">
+                <a href="services.html" class="btn btn-primary">Explore Services</a>
+                <a href="contact.html" class="btn btn-secondary" style="margin-left: 1rem;">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-header reveal">
+            <h2>System Metrics</h2>
+            <p>Real-time performance indicators from our digital infrastructure</p>
+        </div>
+        <div class="grid-4">
+            <div class="cyber-card metric-card reveal">
+                <div class="value neon-green"><span class="counter" data-target="150">0</span>+</div>
+                <div class="label">PROJECTS COMPLETED</div>
+            </div>
+            <div class="cyber-card metric-card reveal">
+                <div class="value" style="color: var(--cyber-blue); text-shadow: 0 0 20px rgba(0,212,255,0.5);"><span class="counter" data-target="50">0</span>+</div>
+                <div class="label">HAPPY CLIENTS</div>
+            </div>
+            <div class="cyber-card metric-card reveal">
+                <div class="value neon-yellow"><span class="counter" data-target="99">0</span>%</div>
+                <div class="label">SATISFACTION RATE</div>
+            </div>
+            <div class="cyber-card metric-card reveal">
+                <div class="value neon-pink"><span class="counter" data-target="24">0</span>/7</div>
+                <div class="label">SUPPORT ONLINE</div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: rgba(0,0,0,0.2);">
+        <div class="section-header reveal">
+            <h2>Core Modules</h2>
+            <p>Specialized digital solutions for the modern web</p>
+        </div>
+        <div class="grid-3">
+            <div class="cyber-card reveal">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🚀</div>
+                <h3 style="font-family: 'Orbitron'; color: var(--cyber-blue); margin-bottom: 1rem;">3D Web Experiences</h3>
+                <p>Immersive Three.js and WebGL implementations with particle systems, wireframe animations, and interactive 3D environments.</p>
+            </div>
+            <div class="cyber-card reveal">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
+                <h3 style="font-family: 'Orbitron'; color: var(--cyber-green); margin-bottom: 1rem;">Cyberpunk UI/UX</h3>
+                <p>Neon-infused interface design featuring glitch effects, holographic cards, scanline overlays, and futuristic dashboard aesthetics.</p>
+            </div>
+            <div class="cyber-card reveal">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🔮</div>
+                <h3 style="font-family: 'Orbitron'; color: var(--cyber-pink); margin-bottom: 1rem;">Full-Stack Systems</h3>
+                <p>End-to-end application development with secure authentication, real-time databases, and responsive multi-platform deployment.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-header reveal">
+            <h2>Latest Deployments</h2>
+            <p>Recent projects launched from our digital laboratory</p>
+        </div>
+        <div class="grid-2">
+            <div class="cyber-card reveal">
+                <div style="height: 200px; background: linear-gradient(135deg, rgba(0,212,255,0.1), rgba(0,255,136,0.1)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; border: 1px solid rgba(0,212,255,0.2);">
+                    <span style="font-family: 'Orbitron'; color: var(--cyber-blue); font-size: 1.2rem;">3D EXPENSE TRACKER</span>
+                </div>
+                <h3 style="font-family: 'Orbitron'; color: var(--cyber-blue); margin-bottom: 0.5rem;">Advanced 3D Expense Tracker</h3>
+                <p style="color: #888; margin-bottom: 1rem;">Multi-user financial management with Three.js animations, AI insights, and cyberpunk dashboard interface.</p>
+                <a href="#" class="btn" style="font-size: 0.75rem; padding: 0.6rem 1.5rem;">View Case Study →</a>
+            </div>
+            <div class="cyber-card reveal">
+                <div style="height: 200px; background: linear-gradient(135deg, rgba(255,0,170,0.1), rgba(170,0,255,0.1)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem; border: 1px solid rgba(255,0,170,0.2);">
+                    <span style="font-family: 'Orbitron'; color: var(--cyber-pink); font-size: 1.2rem;">AI COMMAND CENTER</span>
+                </div>
+                <h3 style="font-family: 'Orbitron'; color: var(--cyber-pink); margin-bottom: 0.5rem;">Intelligent Dashboard Systems</h3>
+                <p style="color: #888; margin-bottom: 1rem;">Real-time data visualization platforms with automated insights, 3D charting, and predictive analytics.</p>
+                <a href="#" class="btn" style="font-size: 0.75rem; padding: 0.6rem 1.5rem;">View Case Study →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="font-family: 'Orbitron'; color: var(--cyber-blue); margin-bottom: 1rem; letter-spacing: 2px;">ISSU321</p>
+        <p>Advanced Digital Solutions & Cybernetic Experiences</p>
+        <div class="social-links" style="margin-top: 1.5rem;">
+            <a href="https://github.com/issu321" target="_blank" title="GitHub">Git-Hub</a>
+        </div>
+        <p style="margin-top: 2rem; font-size: 0.8rem;">Developed by issu321 | github.com/issu321</p>
+    </footer>
+
+    <script src="js/three-bg.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
